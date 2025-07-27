@@ -1,0 +1,56 @@
+.contact-section {
+  padding: 5rem 2rem;
+  background-color: #121212;
+  color: white;
+  text-align: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #ff3399;
+}
+
+.section-title {
+  color: #ff69b4;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.section-title:hover {
+  text-shadow: 0 0 10px #ff69b4;
+  letter-spacing: 1px;
+}
+
+.about-section, .projects-section, .contact {
+  padding-top: 100px; /* So content isn't hidden behind navbar */
+}
