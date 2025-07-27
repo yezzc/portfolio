@@ -1,0 +1,15 @@
+
+{
+  "short_name": "PortNandu",
+  "name": "Nanditha's Portfolio",
+  "theme_color": "#f06292",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
